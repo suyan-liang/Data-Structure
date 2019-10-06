@@ -27,6 +27,7 @@ void HeapAdjust(int data[], int s, int m)
 		//否则的话，就交换啊，这里可以直接赋值，也可以进行交换，和数据结构课本那个快排差不多
 		else
 		{
+		//也就是说，这儿用swap也行？？？
 			data[s] = data[j];
 			s = j;
 		}
